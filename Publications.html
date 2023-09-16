@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+       <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Kiarash Rahmani</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        
+           
+     <div class="header"> 
+             
+           
+    <div class="container">
+        <div class="navbar">
+            
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Education.html">Education</a></li>
+                    <li><a href="Experience.html">Experience</a></li>
+                    <li><a href="Projects.html">Projects</a></li>
+                    <li><a href="Publications.html">Publications</a></li>
+
+                </ul>
+            </nav>
+          <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div> 
+         <!-- Projects -->
+         <br><br> <br><br> <br><br>
+	<div class="work section second" id="experiences">
+		<div class="container">
+			<h1>Publications</h1>
+            <br><br>
+            
+			<ul class="work-list">
+            <li><span style="font-size: 20px;"> Coming soon</span><br><span style="font-size: 14px;">empty</span></li>
+            <li><a href="https://www.researchgate.net/profile/Kiarash-Rahmani-2" target="_blank" style="font-size: 14px">View on Researchgate</a></li>
+            </ul>
+            
+        
+            
+            
+		</div>
+	</div>
+      
+       
+        
+        <!--------js for toggle---------->
+        <script>
+            var MenuItems = document.getElementById("MenuItems");
+            MenuItems.style.maxHeight="0px";
+            function menutoggle(){
+                if(MenuItems.style.maxHeight == "0px")
+                    {
+                        MenuItems.style.maxHeight = "200px";
+                        
+                    }
+                else{
+                    MenuItems.style.maxHeight = "0px";
+                }
+            }
+        </script>
+        
+        
+         
+    </body>
+</html>
+
+
+
+
+
