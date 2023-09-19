@@ -71,7 +71,7 @@ p{
       margin-left: -450px; /* Adjust the value as needed */
 
 }
-@media (max-width: 800px) {
+@media (max-width:1300px ) {
     
 .col-2 img {
     display: none;
